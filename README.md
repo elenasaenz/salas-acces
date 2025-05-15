@@ -1,26 +1,26 @@
 # RRS Meta Extractor
 
-Sistema para extraer información de posts de redes sociales de salas ACCES.
+System for extracting information from social media posts of ACCES venues.
 
-## Descripción
+## Description
 
-Este sistema analiza posts de redes sociales de las distintas salas ACCES para extraer eventos con:
-- Fecha y hora
-- Artistas
-- Lugar
+This system analyzes social media posts from various ACCES venues to extract events with:
+- Date and time
+- Artists
+- Location
 
-## Solución
+## Solution
 
-- Desarrollo en Dify de un flujo que procesa posts (imágenes y texto)
-- Utiliza LLM (gemma3:27b) para extraer información en formato JSON
-- Almacena los datos en PostgreSQL
+- Development in Dify of a workflow that processes posts (images and text)
+- Uses LLM (gemma3:27b) to extract information in JSON format
+- Stores the data in PostgreSQL
 
-## Estructura
+## Structure
 
-- `meta_api_connector.py`: Simula conexión con la API de Meta
-- `evaluation.py`: Evaluación del sistema
-- `database_schema.py`: Esquema de la base de datos
+- `meta_api_connector.py`: Simulates connection with the Meta API
+- `evaluation.py`: System evaluation
+- `database_schema.py`: Database schema
 
-## Evaluación
+## Evaluation
 
-Se utiliza Langfuse para evaluar la precisión del sistema comparando los resultados con un dataset de referencia.
+Langfuse is used to evaluate the accuracy of the system by comparing the results with a reference dataset.
