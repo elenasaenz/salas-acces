@@ -36,4 +36,5 @@ The company will use the collected data to build a database of ACCES music event
 
 We would like to emphasize that the entire process will be managed privately. Both the language model and the database have been deployed locally to ensure full control and data privacy.
 
+This is the process followed by the system to extract and store concert data in the database. Although we are currently using simulated data, the process will remain the same with real data once the necessary permissions are approved. Thank you for reviewing this demonstration.
 ##
