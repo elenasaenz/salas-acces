@@ -4,7 +4,7 @@ The extracted information will be stored in a private relational database consis
 This database will be updated with the extracted data (artist, venue, and date) for subsequent analysis and visualization.
 
 ## Requested Permissions
-We are requesting both the Page Public Content Access and pages_read_engagement permissions to retrieve public posts from Facebook and Instagram Pages. This permission will allow our tool to collect public posts related to concerts held at ACCES venues and extract relevant data to be stored in our database.
+We are requesting both the Page Public Content Access and Instagram Public Content Access permissions to retrieve public posts from Facebook and Instagram Pages. This permission will allow our tool to collect public posts related to concerts held at ACCES venues and extract relevant data to be stored in our database.
 
 ## System Description
 
@@ -24,7 +24,7 @@ These posts may contain text, images, links, and occasionally videos. Extracted 
 
 In the structure, the meta_api_connector.py simulates how the system extracts and organizes sample data. For example, a post may include an artist name, venue, and date. This data is then processed and stored in the corresponding tables (artists, venues, and events). Once the tool is granted access to real data, it will follow the same process using actual social media content.
 
-- `meta_api_connector.py`: Simulates connection with the Meta API. This script demonstrates the use cases that require the requested permissions: Page Public Content Access and pages_read_engagement.
+- `meta_api_connector.py`: Simulates connection with the Meta API. This script demonstrates the use cases that require the requested permissions: Page Public Content Access and Instagram Public Content Access.
 - `database_schema.py`: Database schema
 
 ## Evaluation
