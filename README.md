@@ -1,5 +1,6 @@
 # RRS Meta Extractor
-The developed system will be used to extract data from public social media posts of ACCES venues (https://salasdeconciertos.com/salas-asociadas/). 
+The developed system will be used to extract data from public social media posts of ACCES venues (https://salasdeconciertos.com/salas-asociadas/).
+The concert venues we aim to analyze are part of an association of venues (ACCES), and the service we are developing is intended to provide ACCES with access to this information.
 The extracted information will be stored in a private relational database consisting of three tables: artists, venues, and events. 
 This database will be updated with the extracted data (artist, venue, and date) for subsequent analysis and visualization.
 
