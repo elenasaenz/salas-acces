@@ -1,7 +1,7 @@
 """
 Pseudocode for connecting to the Meta API and extracting social media posts.
 This script demonstrates the use cases that require the requested permissions: 
-Page Public Content Access and Instagram Public Content Access.
+Page Public Content Access.
 """
 
 import json
