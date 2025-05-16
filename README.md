@@ -5,7 +5,8 @@ The extracted information will be stored in a private relational database consis
 This database will be updated with the extracted data (artist, venue, and date) for subsequent analysis and visualization.
 
 ## Requested Permissions
-We are requesting  the Page Public Content Access permission to retrieve public posts from Facebook Pages. This permission will allow our tool to collect public posts related to concerts held at ACCES venues and extract relevant data to be stored in our database.
+We are requesting  the Page Public Content Access permission to retrieve public posts from Facebook Pages. 
+This permission is essential for our system to retrieve public posts from Facebook Pages associated with ACCES venues. These posts typically include valuable information such as event dates, performing artists, and venue locations, which are crucial for constructing a detailed and up-to-date database of music events.
 
 ## System Description
 
@@ -32,10 +33,17 @@ In the structure, the meta_api_connector.py simulates how the system extracts an
 
 Langfuse is used to evaluate the accuracy of the system by comparing the results with a reference dataset.
 
+## Privacy and Security Measures
+
+- All data processing and storage occur within a fully private and controlled environment.
+- The language model employed for data extraction and the PostgreSQL database are deployed locally, ensuring that no data is transmitted to or stored on external servers.
+- Our system only accesses publicly available content and strictly adheres to Meta’s data use policies and guidelines.
+
+
 ## Justification for Data Use
 The company will use the collected data to build a database of ACCES music events, which can be used to generate reports, visualizations, and analytics. Information such as the artist name, venue, and event date will be essential for planning future events, making attendance forecasts, and optimizing marketing and promotional strategies for concerts.
 
-We would like to emphasize that the entire process will be managed privately. Both the language model and the database have been deployed locally to ensure full control and data privacy.
+Granting Page Public Content Access permission is critical to the functionality and success of our system. The access will empower us to collect and process only publicly available data from ACCES venue pages, ensuring compliance with Meta’s platform policies while delivering significant value to the ACCES association and its stakeholders.
 
 This is the process followed by the system to extract and store concert data in the database. Although we are currently using simulated data, the process will remain the same with real data once the necessary permissions are approved. Thank you for reviewing this demonstration.
 ##
